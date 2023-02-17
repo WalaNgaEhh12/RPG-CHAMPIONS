@@ -86,103 +86,103 @@ MainTab:AddButton({
 MainTab:AddButton({
 	Name = "Unknown Yard",
 	Callback = function()
-      		print(loadstring(game:HttpGet('https://pastebin.com/raw/tF8zudbG'))())
+      		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/Unknown%20Yard'))())
   	end    
 })
 
 CombatTab:AddButton({
-	Name = "Auto Attack On",
+	Name = "Auto Attack [On] [⚔️]",
 	Callback = function()     		
               print(loadstring(game:HttpGet('https://pastebin.com/raw/r92ztbAN'))())
   	end    
 })
 
 CombatTab:AddButton({
-	Name = "Auto Attack [Off]",
+	Name = "Auto Attack Off [❌]",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://pastebin.com/raw/zXt1i7v7'))())
   	end    
 })
 
 CombatTab:AddButton({
-	Name = "Auto 1st Skill On",
+	Name = "Auto 1st Skill [On]",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/W'))())
   	end    
 })
 
 CombatTab:AddButton({
-	Name = "Auto 1st Skill [Off]",
+	Name = "Auto 1st Skill Off [❌]",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/A'))())
   	end    
 })
 
 CombatTab:AddButton({
-	Name = "Auto 2nd Skill On",
+	Name = "Auto 2nd Skill [On]",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/AA'))())
   	end    
 })
 
 CombatTab:AddButton({
-	Name = "Auto 2nd Skill [Off]",
+	Name = "Auto 2nd Skill Off [❌]",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/WW'))())
   	end    
 })
 
 CombatTab:AddButton({
-	Name = "Auto 3rd Skill  On",
+	Name = "Auto 3rd Skill  [On]",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/AAA'))())
   	end    
 })
 
 CombatTab:AddButton({
-	Name = "Auto 3rd Skill [Off]",
+	Name = "Auto 3rd Skill Off [❌]",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/Z'))())
   	end    
 })
 
 AscensionTab:AddButton({
-	Name = "Ascend On",
+	Name = "Ascend [On]",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/Ascend%20On'))())
   	end    
 })
 
 AscensionTab:AddButton({
-	Name = "Ascend [Off]",
+	Name = "Ascend Off [❌]",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/Ascend%20Off'))())
   	end    
 })
 
 AscensionTab:AddButton({
-	Name = "Add Luck On",
+	Name = "Add Luck [On]",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/Add%20Luck%20On'))())
   	end    
 })
 
 AscensionTab:AddButton({
-	Name = "Add Luck [Off]",
+	Name = "Add Luck Off [❌]",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/Add%20Luck%20Off'))())
   	end    
 })
 
 AscensionTab:AddButton({
-	Name = "Add Speed On",
+	Name = "Add Speed [On]",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/Add%20Speed%20On'))())
   	end    
 })
 
 AscensionTab:AddButton({
-	Name = "Add Speed [Off]",
+	Name = "Add Speed Off [❌]",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/Add%20Speed%20Off'))())
   	end    
