@@ -1,0 +1,10 @@
+while wait() do
+delay(0, function()
+wait()
+local args = {
+    [1] = "again"
+}
+
+workspace.PlacePost:FireServer(unpack(args))
+end)
+end
