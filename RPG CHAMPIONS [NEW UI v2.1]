@@ -49,7 +49,7 @@ local Section = DomainTab:AddSection({
 })
 
 MainTab:AddButton({
-	Name = "Activate this before you Auto Farm",
+	Name = "ACTIVATE this before you AUTO FARM 🎉",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://pastebin.com/raw/TDsJJZB9'))())
   	end    
