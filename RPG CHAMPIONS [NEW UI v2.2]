@@ -1,3 +1,4 @@
+if.game.PlaceId == 9031522337 then
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Azazel | RPG CHAMPIONS HUB ☕", HidePremium = false, IntroText = "Made by 0msh 💀", SaveConfig = true, ConfigFolder = "Made By 0msh 💀"})
 
