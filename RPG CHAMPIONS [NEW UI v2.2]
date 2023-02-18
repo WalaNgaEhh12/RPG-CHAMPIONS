@@ -203,7 +203,7 @@ DomainTab:AddButton({
 })
 
 DomainTab:AddButton({
-	Name = "Domain Auto Restart [✅]",
+	Name = "Auto Domain Restart [✅]",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/RPG-CHAMPIONS/main/Domain%20Auto%20Restart'))())
   	end    
