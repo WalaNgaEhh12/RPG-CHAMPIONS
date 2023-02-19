@@ -1,0 +1,213 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Azazel | RPG CHAMPIONS HUB ☕", HidePremium = false, IntroText = "Made by 0msh 💀", SaveConfig = true, ConfigFolder = "Made By 0msh 💀"})
+
+OrionLib:MakeNotification({
+	Name = "HAHA TANGA", 
+	Content = "GET BANNED LOL 😂",
+	Image = "rbxassetid://4483345998",
+	Time = 20
+})
+
+local MainTab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = MainTab:AddSection({
+	Name = "Main - Auto Farms"
+})
+
+local CombatTab = Window:MakeTab({
+	Name = "Combat",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = CombatTab:AddSection({
+	Name = "Combat Section"
+})
+
+local AscensionTab = Window:MakeTab({
+	Name = "Ascension",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = AscensionTab:AddSection({
+	Name = "Ascension Section"
+})
+
+local DomainTab = Window:MakeTab({
+	Name = "Domain",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = DomainTab:AddSection({
+	Name = "Domain Section"
+})
+
+local TowerTab = Window:MakeTab({
+	Name = "Tower",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = TowerTab:AddSection({
+	Name = "Tower Section"
+})
+
+MainTab:AddButton({
+	Name = "ACTIVATE THIS BEFORE YOU AUTO FARM 🎉",
+	Callback = function()
+      		print(loadstring(game:HttpGet('https://pastebin.com/raw/TDsJJZB9'))())
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Desert Outskirts",
+	Callback = function()
+      		print(loadstring(game:HttpGet('https://pastebin.com/raw/UssHrZiB'))())
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Upper Abyss",
+	Callback = function()
+      		print(loadstring(game:HttpGet('https://pastebin.com/raw/hYc7Aeqa'))())
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Abandoned Outpost",
+	Callback = function()
+      		print(loadstring(game:HttpGet('https://pastebin.com/raw/ewzkbZhM'))())
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Center Abyss",
+	Callback = function()
+      		print(loadstring(game:HttpGet('https://pastebin.com/raw/xASE7Tqm'))())
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Mutation Chasm",
+	Callback = function()
+      		print(loadstring(game:HttpGet('https://pastebin.com/raw/A5B2DUvA'))())
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Unknown Yard",
+	Callback = function()
+      		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/Unknown%20Yard'))())
+  	end    
+})
+
+DomainTab:AddButton({
+	Name = "Domain FAST [😱]",
+	Callback = function()
+      		print(loadstring(game:HttpGet('https://pastebin.com/raw/PsT9spS0'))())
+  	end    
+})
+
+DomainTab:AddButton({
+	Name = "Auto Domain Restart [✅]",
+	Callback = function()
+      		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/RPG-CHAMPIONS/main/Domain%20Auto%20Restart'))())
+  	end    
+})
+
+TowerTab:AddButton({
+	Name = "Auto Next Floor [✅]",
+	Callback = function()
+      		print(loadstring(game:HttpGet('https://pastebin.com/raw/vpybE60d'))())
+  	end    
+})
+
+CombatTab:AddToggle({
+    Name = "Auto Attack [⚔️]",
+    Default = false,
+    Callback = function(Value)
+        if Value then
+            print(loadstring(game:HttpGet('https://pastebin.com/raw/r92ztbAN'))())
+        else
+            print(loadstring(game:HttpGet('https://pastebin.com/raw/zXt1i7v7'))())
+        end
+    end
+})
+
+CombatTab:AddToggle({
+    Name = "Auto 1st Skill [⚔️]",
+    Default = false,
+    Callback = function(Value)
+        if Value then
+            print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/W'))())
+        else
+            print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/A'))())
+        end
+    end
+})
+
+CombatTab:AddToggle({
+    Name = "Auto 2nd Skill [⚔️]",
+    Default = false,
+    Callback = function(Value)
+        if Value then
+            print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/AA'))())
+        else
+            print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/WW'))())
+        end
+    end
+})
+
+CombatTab:AddToggle({
+    Name = "Auto 3rd Skill [⚔️]",
+    Default = false,
+    Callback = function(Value)
+        if Value then
+            print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/AAA'))())
+        else
+            print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/Z'))())
+        end
+    end
+})
+
+AscensionTab:AddToggle({
+    Name = "Auto Upgrade Luck [🍀]",
+    Default = false,
+    Callback = function(Value)
+        if Value then
+            print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/Add%20Luck%20On'))())
+        else
+            print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/Add%20Luck%20Off'))())
+        end
+    end
+})
+
+AscensionTab:AddToggle({
+    Name = "Auto Upgrade Speed [🏃]",
+    Default = false,
+    Callback = function(Value)
+        if Value then
+            print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/Add%20Speed%20On'))())
+        else
+            print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/Add%20Speed%20Off'))())
+        end
+    end
+})
+
+AscensionTab:AddToggle({
+    Name = "Auto Increase Chance [💯]",
+    Default = false,
+    Callback = function(Value)
+        if Value then
+            print(loadstring(game:HttpGet('https://pastebin.com/TsLtVDeN'))())
+        else 
+            print(loadstring(game:HttpGet('https://pastebin.com/raw/0wCxsBCK'))())
+        end
+    end
+})
