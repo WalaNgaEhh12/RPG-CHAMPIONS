@@ -100,6 +100,30 @@ DomainTab:AddButton({
   	end    
 })
 
+AscensionTab:AddToggle({
+    Name = "Auto Upgrade Luck [🍀]",
+    Default = false,
+    Callback = function(Value)
+        if Value then
+            print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/Add%20Luck%20On'))())
+        else
+            print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/Add%20Luck%20Off'))())
+        end
+    end
+})
+
+AscensionTab:AddToggle({
+    Name = "Auto Upgrade Speed [🏃]",
+    Default = false,
+    Callback = function(Value)
+        if Value then
+            print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/Add%20Speed%20On'))())
+        else
+            print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/Add%20Speed%20Off'))())
+        end
+    end
+})
+
 DomainTab:AddButton({
 	Name = "Auto Domain Restart [✅]",
 	Callback = function()
@@ -158,42 +182,6 @@ CombatTab:AddToggle({
             print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/AAA'))())
         else
             print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/Z'))())
-        end
-    end
-})
-
-AscensionTab:AddToggle({
-    Name = "Auto Upgrade Luck [🍀]",
-    Default = false,
-    Callback = function(Value)
-        if Value then
-            print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/Add%20Luck%20On'))())
-        else
-            print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/Add%20Luck%20Off'))())
-        end
-    end
-})
-
-AscensionTab:AddToggle({
-    Name = "Auto Upgrade Speed [🏃]",
-    Default = false,
-    Callback = function(Value)
-        if Value then
-            print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/Add%20Speed%20On'))())
-        else
-            print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/Add%20Speed%20Off'))())
-        end
-    end
-})
-
-AscensionTab:AddToggle({
-    Name = "Auto Increase Chance [💯]",
-    Default = false,
-    Callback = function(Value)
-        if Value then
-            print(loadstring(game:HttpGet('https://pastebin.com/TsLtVDeN'))())
-        else 
-            print(loadstring(game:HttpGet('https://pastebin.com/raw/0wCxsBCK'))())
         end
     end
 })
