@@ -179,9 +179,9 @@ CombatTab:AddToggle({
     Default = false,
     Callback = function(Value)
         if Value then
-            print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/AAA'))())
+            print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/AAAA'))())
         else
-            print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/Z'))())
+            print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/ZZ'))())
         end
     end
 })
