@@ -66,13 +66,6 @@ MainTab:AddButton({
 })
 
 MainTab:AddButton({
-	Name = "Desert Outskirts",
-	Callback = function()
-      		print(loadstring(game:HttpGet('https://pastebin.com/raw/UssHrZiB'))())
-  	end    
-})
-
-MainTab:AddButton({
 	Name = "Upper Abyss",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://pastebin.com/raw/hYc7Aeqa'))())
@@ -83,13 +76,6 @@ MainTab:AddButton({
 	Name = "Abandoned Outpost",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://pastebin.com/raw/ewzkbZhM'))())
-  	end    
-})
-
-MainTab:AddButton({
-	Name = "Center Abyss",
-	Callback = function()
-      		print(loadstring(game:HttpGet('https://pastebin.com/raw/xASE7Tqm'))())
   	end    
 })
 
