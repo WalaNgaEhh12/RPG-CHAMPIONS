@@ -100,6 +100,13 @@ DomainTab:AddButton({
   	end    
 })
 
+DomainTab:AddButton({
+	Name = "Auto Domain Restart [✅]",
+	Callback = function()
+      		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/RPG-CHAMPIONS/main/Domain%20Auto%20Restart'))())
+  	end    
+})
+
 AscensionTab:AddToggle({
     Name = "Auto Upgrade Luck [🍀]",
     Default = false,
@@ -122,20 +129,6 @@ AscensionTab:AddToggle({
             print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/Add%20Speed%20Off'))())
         end
     end
-})
-
-DomainTab:AddButton({
-	Name = "Auto Domain Restart [✅]",
-	Callback = function()
-      		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/RPG-CHAMPIONS/main/Domain%20Auto%20Restart'))())
-  	end    
-})
-
-TowerTab:AddButton({
-	Name = "Auto Next Floor [✅]",
-	Callback = function()
-      		print(loadstring(game:HttpGet('https://pastebin.com/raw/vpybE60d'))())
-  	end    
 })
 
 CombatTab:AddToggle({
@@ -183,5 +176,13 @@ CombatTab:AddToggle({
         else
             print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/ZZ'))())
         end
+    end
+})
+
+TowerTab:AddButton({
+	Name = "Auto Next Floor [✅]",
+	Callback = function()
+      		print(loadstring(game:HttpGet('https://pastebin.com/raw/vpybE60d'))())
+  	end    
     end
 })
