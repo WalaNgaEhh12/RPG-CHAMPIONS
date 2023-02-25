@@ -1,0 +1,17 @@
+while wait(8) do
+delay(1, function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1976, 54, 2516)
+end)
+delay(8, function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1952, 54, 2548)
+end)
+delay(9, function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2048, 77, 2581)
+end)
+delay(10, function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2055, 77, 2614)
+end)
+delay(11, function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2074, 77, 2595)
+end)
+end
