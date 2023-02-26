@@ -17,7 +17,7 @@ while (wait(22)) do
     delay(6, function()
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1013, 18, -1689)
     end)
-    delay(10.5, function()
+    delay(10, function()
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1055, 18, -1707)
     end)
     delay(11, function()
