@@ -1,0 +1,58 @@
+local Players = game:GetService("Players")
+local PathfindingService = game:GetService("PathfindingService")
+
+local player = Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoid = character:WaitForChild("Humanoid")
+local rootPart = character:WaitForChild("HumanoidRootPart")
+
+-- Define an array of target positions
+local targetPositions = {
+    Vector3.new(-3882, -30, 820),
+    Vector3.new(-3852, -30, 804),
+    Vector3.new(-3840, -30, 842),
+    Vector3.new(-3851, -30, 868),
+    Vector3.new(-3846, -30, 899),
+    Vector3.new(-3801, -30, 837),
+    Vector3.new(-3760, -28, 836),
+    Vector3.new(-3726, -28, 821),
+    Vector3.new(-3671, -28, 802),
+    Vector3.new(-3643, -27, 789),
+    Vector3.new(-3695, -30, 921),
+    Vector3.new(-3695, -30, 964),
+    Vector3.new(-3697, -30, 1005),
+    Vector3.new(-3684, -30, 1040),
+    Vector3.new(-3685, -30, 1088),
+    Vector3.new(-3646, -30, 1102),
+    Vector3.new(-3613, -30, 1075),
+    Vector3.new(-3599, -30, 1018),
+    Vector3.new(-3604, -30, 976),
+    Vector3.new(-3650, -30, 980),
+    Vector3.new(-3693, -30, 963),
+    Vector3.new(-3694, -30, 919)
+}
+
+-- Loop through each target position and compute a path to it
+while true do
+    for i, targetPosition in ipairs(targetPositions) do
+        local path = PathfindingService:CreatePath()
+        path:ComputeAsync(rootPart.Position, targetPosition)
+
+        if path.Status == Enum.PathStatus.Success then
+            for _, waypoint in ipairs(path:GetWaypoints()) do
+                humanoid:MoveTo(waypoint.Position)
+                humanoid.MoveToFinished:Wait()
+            end
+        end
+
+        -- Add a delay of 1.8 seconds for path 9 to 17
+        if i >= 9 and i <= 17 then
+            wait(1.8)
+        -- Add a delay of 1.7 seconds for path 21-22
+        elseif i == 21 or i == 22 then
+            wait(1.7)
+        else
+            wait(0) -- Add a delay of 1 second for all other paths
+        end
+    end
+end
