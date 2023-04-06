@@ -99,7 +99,7 @@ CombatTab:AddToggle({
 CombatTab:AddButton({
 	Name = "Wild Chest ESP [📦] (hehe)",
 	Callback = function()
-      		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/ESP%20CHEST'))())
+      		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/ESP%20CHEST.'))())
   	end    
 })
 
