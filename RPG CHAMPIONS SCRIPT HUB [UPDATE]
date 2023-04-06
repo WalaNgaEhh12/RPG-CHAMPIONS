@@ -97,16 +97,16 @@ CombatTab:AddToggle({
 })
 
 CombatTab:AddButton({
-	Name = "Wild Chest ESP [📦] (NOT a GOOD ESP)",
+	Name = "Wild Chest ESP [📦] (hehe)",
 	Callback = function()
-      		print(loadstring(game:HttpGet('https://pastebin.com/raw/pv9DBynb'))())
+      		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/ESP%20CHEST'))())
   	end    
 })
 
 CombatTab:AddButton({
-	Name = "Lost Shard ESP [💠] (NOT a GOOD ESP)",
+	Name = "Lost Shard ESP [💠] (hehe)",
 	Callback = function()
-      		print(loadstring(game:HttpGet('https://pastebin.com/raw/K7jyUc0K'))())
+      		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/ESP%20LOSTSHARDS'))())
   	end    
 })
 
