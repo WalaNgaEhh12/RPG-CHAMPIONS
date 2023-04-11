@@ -53,9 +53,9 @@ CombatTab:AddToggle({
     Default = false,
     Callback = function(Value)
         if Value then
-            print(loadstring(game:HttpGet('https://pastebin.com/raw/r92ztbAN'))())
+            print(loadstring(game:HttpGet('https://pastebin.com/raw/D2zLfJex'))())
         else
-            print(loadstring(game:HttpGet('https://pastebin.com/raw/zXt1i7v7'))())
+            print(loadstring(game:HttpGet('https://pastebin.com/raw/Kr8qMSFR'))())
         end
     end
 })
