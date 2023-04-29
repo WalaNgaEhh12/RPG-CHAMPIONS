@@ -1,18 +1,18 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Coffe | RPG CHAMPIONS ☕", HidePremium = false, IntroText = "Made by WalaNgaEhh12", SaveConfig = true, ConfigFolder = "Shhh💀"})
+local Window = OrionLib:MakeWindow({Name = "Coffe | RPG CHAMPIONS ☕", HidePremium = false, IntroText = "Made by WalaNgaEhh12 🤨", SaveConfig = true, ConfigFolder = "Shhh💀"})
 
 OrionLib:MakeNotification({
 	Name = "Hi", 
 	Content = "USE AT YOUR OWN RISK",
 	Image = "rbxassetid://4483345998",
-	Time = 30
+	Time = 35
 })
 
 OrionLib:MakeNotification({
 	Name = "❗❗❗", 
 	Content = "BE AWARE THAT USING MY SCRIPT CAN GET YOU BANNED",
 	Image = "rbxassetid://4483345998",
-	Time = 30
+	Time = 35
 })
 
 OrionLib:MakeNotification({
@@ -60,6 +60,16 @@ local DomainTab = Window:MakeTab({
 
 local Section = DomainTab:AddSection({
 	Name = "Domain Section"
+})
+
+local AntiAFKTab = Window:MakeTab({
+	Name = "Anti-AFK",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = AntiAFKTab:AddSection({
+	Name = "Anti-AFK"
 })
 
 CombatTab:AddToggle({
@@ -205,5 +215,12 @@ MainTab:AddButton({
 	Name = "Valley Of Death [ASCENSION 6]",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://pastebin.com/raw/UQ1uKJtx'))())
+  	end    
+})
+
+AntiAFKTab:AddButton({
+	Name = "Anti AFK",
+	Callback = function()
+      		print(loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringypVvhJBq4QNz", true))())
   	end    
 })
