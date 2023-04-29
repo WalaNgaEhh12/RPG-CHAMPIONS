@@ -9,14 +9,21 @@ OrionLib:MakeNotification({
 })
 
 OrionLib:MakeNotification({
-	Name = "❗❗❗", 
-	Content = "BE AWARE THAT USING MY SCRIPT CAN GET YOU BANNED",
+	Name = "❕❕❕", 
+	Content = "MY AUTO FARM/DOMAIN HAS A DELAY {PRESS IT ONCE} THEN WAIT",
 	Image = "rbxassetid://4483345998",
 	Time = 35
 })
 
 OrionLib:MakeNotification({
-	Name = "TAKE NOTE ❗❗❗", 
+	Name = "❗❗❗", 
+	Content = "BE AWARE THAT USING MY SCRIPT CAN GET YOU WARNED/BANNED, So Be careful",
+	Image = "rbxassetid://4483345998",
+	Time = 35
+})
+
+OrionLib:MakeNotification({
+	Name = "TAKE NOTE ❕❕❕", 
 	Content = "WHEN USING [DOMAIN] U NEED AT LEAST 600k-1M DAMAGE [IN SHORT U NEED TO HAVE DMG THAT CAN 1-2 SHOT THE BOSS",
 	Image = "rbxassetid://4483345998",
 	Time = 35
@@ -62,14 +69,14 @@ local Section = DomainTab:AddSection({
 	Name = "Domain Section"
 })
 
-local AntiAFKTab = Window:MakeTab({
-	Name = "Anti-AFK",
+local OthersTab = Window:MakeTab({
+	Name = "Others",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
-local Section = AntiAFKTab:AddSection({
-	Name = "Anti-AFK"
+local Section = OthersTab:AddSection({
+	Name = "Others"
 })
 
 CombatTab:AddToggle({
@@ -218,9 +225,16 @@ MainTab:AddButton({
   	end    
 })
 
-AntiAFKTab:AddButton({
+OthersTab:AddButton({
 	Name = "Anti AFK",
 	Callback = function()
       		print(loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringypVvhJBq4QNz", true))())
+  	end    
+})
+
+OthersTab:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+      		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))())
   	end    
 })
