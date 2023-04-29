@@ -5,7 +5,21 @@ OrionLib:MakeNotification({
 	Name = "Hi", 
 	Content = "USE AT YOUR OWN RISK",
 	Image = "rbxassetid://4483345998",
-	Time = 12
+	Time = 30
+})
+
+OrionLib:MakeNotification({
+	Name = "❗❗❗", 
+	Content = "BE AWARE THAT USING MY SCRIPT CAN GET YOU BANNED",
+	Image = "rbxassetid://4483345998",
+	Time = 30
+})
+
+OrionLib:MakeNotification({
+	Name = "TAKE NOTE ❗❗❗", 
+	Content = "WHEN USING [DOMAIN] U NEED AT LEAST 600k-1M DAMAGE [IN SHORT U NEED TO HAVE DMG THAT CAN 1-2 SHOT THE BOSS",
+	Image = "rbxassetid://4483345998",
+	Time = 35
 })
 
 local MainTab = Window:MakeTab({
@@ -146,14 +160,49 @@ MainTab:AddButton({
 })
 
 MainTab:AddButton({
-	Name = "Unknown Yard [❓]",
+	Name = "Desert Outskirts [LV. 60]",
+	Callback = function()
+      		print(loadstring(game:HttpGet('https://pastebin.com/raw/UssHrZiB'))())
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Upper Abyss [LV. 90]",
+	Callback = function()
+      		print(loadstring(game:HttpGet('https://pastebin.com/raw/hYc7Aeqa'))())
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Abandoned Outpost [LV. 135]",
+	Callback = function()
+      		print(loadstring(game:HttpGet('https://pastebin.com/raw/ewzkbZhM'))())
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Center Abyss [LV. 200]",
+	Callback = function()
+      		print(loadstring(game:HttpGet('https://pastebin.com/raw/xASE7Tqm'))())
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Mutation Chasm [LV. 230]",
+	Callback = function()
+      		print(loadstring(game:HttpGet('https://pastebin.com/raw/A5B2DUvA'))())
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Unknown Yard [LV. 385]",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/RPG-CHAMPIONS/main/Unknown%20Yard'))())
   	end    
 })
 
 MainTab:AddButton({
-	Name = "Valley Of Death [💀]",
+	Name = "Valley Of Death [ASCENSION 6]",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://pastebin.com/raw/UQ1uKJtx'))())
   	end    
