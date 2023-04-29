@@ -170,7 +170,7 @@ DomainTab:AddButton({
 })
 
 MainTab:AddButton({
-	Name = "ACTIVATE THIS BEFORE YOU AUTO FARM [❗]",
+	Name = "ACTIVATE THIS BEFORE YOU AUTO FARM [REJOINS YOU, IMPORTANT❗] ",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://pastebin.com/raw/TDsJJZB9'))())
   	end    
@@ -187,27 +187,6 @@ MainTab:AddButton({
 	Name = "Upper Abyss [LV. 90]",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://pastebin.com/raw/hYc7Aeqa'))())
-  	end    
-})
-
-MainTab:AddButton({
-	Name = "Abandoned Outpost [LV. 135]",
-	Callback = function()
-      		print(loadstring(game:HttpGet('https://pastebin.com/raw/ewzkbZhM'))())
-  	end    
-})
-
-MainTab:AddButton({
-	Name = "Center Abyss [LV. 200]",
-	Callback = function()
-      		print(loadstring(game:HttpGet('https://pastebin.com/raw/xASE7Tqm'))())
-  	end    
-})
-
-MainTab:AddButton({
-	Name = "Mutation Chasm [LV. 230]",
-	Callback = function()
-      		print(loadstring(game:HttpGet('https://pastebin.com/raw/A5B2DUvA'))())
   	end    
 })
 
