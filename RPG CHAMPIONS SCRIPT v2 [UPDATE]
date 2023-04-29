@@ -1,11 +1,11 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "WatMyNeym | RPG CHAMPIONS HUB ☕", HidePremium = false, IntroText = "Made by 0msh💀", SaveConfig = true, ConfigFolder = "Made By 0msh💀"})
+local Window = OrionLib:MakeWindow({Name = "Coffe | RPG CHAMPIONS ☕", HidePremium = false, IntroText = "Made by WalaNgaEhh12", SaveConfig = true, ConfigFolder = "Shhh💀"})
 
 OrionLib:MakeNotification({
-	Name = "Hi 0msh", 
-	Content = "I'll Always be Here 😂",
+	Name = "Hi", 
+	Content = "USE AT YOUR OWN RISK",
 	Image = "rbxassetid://4483345998",
-	Time = 20
+	Time = 12
 })
 
 local MainTab = Window:MakeTab({
@@ -97,14 +97,14 @@ CombatTab:AddToggle({
 })
 
 CombatTab:AddButton({
-	Name = "Wild Chest ESP [📦] (hehe)",
+	Name = "Wild Chest ESP [📦]",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/ESP%20CHEST'))())
   	end    
 })
 
 CombatTab:AddButton({
-	Name = "Lost Shard ESP [💠] (hehe)",
+	Name = "Lost Shard ESP [💠]",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/W/main/ESP%20LOSTSHARDS'))())
   	end    
@@ -139,21 +139,21 @@ DomainTab:AddButton({
 })
 
 MainTab:AddButton({
-	Name = "ACTIVATE THIS BEFORE YOU AUTO FARM 🎉",
+	Name = "ACTIVATE THIS BEFORE YOU AUTO FARM [❗]",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://pastebin.com/raw/TDsJJZB9'))())
   	end    
 })
 
 MainTab:AddButton({
-	Name = "Unknown Yard [idk haha✅]",
+	Name = "Unknown Yard [❓]",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://raw.githubusercontent.com/WalaNgaEhh12/RPG-CHAMPIONS/main/Unknown%20Yard'))())
   	end    
 })
 
 MainTab:AddButton({
-	Name = "Valley Of Death [FAST/SAFE✅]",
+	Name = "Valley Of Death [💀]",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://pastebin.com/raw/UQ1uKJtx'))())
   	end    
